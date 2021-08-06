@@ -3,7 +3,7 @@ function tablas(){
 
 		for(let i=1;i<=10;i++){
 	
-		let res = document.write(` la multiplicacion de ${mult} x ${i} es ${mult*i} <br>`)
+		let res = document.write(`<p style='color:maroon'> la multiplicacion de ${mult} x ${i} es ${mult*i} </p> <br>`)
 		}
 }
 tablas();
