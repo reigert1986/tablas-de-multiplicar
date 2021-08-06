@@ -1,10 +1,12 @@
-const mult = prompt("ingrese un numero a multiplicar");
+function tablas(){
+	const mult = prompt("ingrese un numero a multiplicar");
 
-for(let i=1;i<=10;i++){
+		for(let i=1;i<=10;i++){
 	
-	let res = document.write(`la multiplicacion de ${mult} x ${i} es ${mult*i} <br>`)
-	
+		let res = document.write(` la multiplicacion de ${mult} x ${i} es ${mult*i} <br>`)
+		}
 }
+tablas();
 
 
 /*ESTO ES PARA NODE JS*/
