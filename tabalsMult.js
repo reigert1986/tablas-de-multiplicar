@@ -1,12 +1,17 @@
+
+const show = document.querySelector(".show");
+const btn = document.querySelector(".btn");
+
 function tablas(){
 	const mult = prompt("ingrese un numero a multiplicar");
 
 		for(let i=1;i<=10;i++){
 	
-		let res = document.write(`<p style='color:maroon'> la multiplicacion de ${mult} x ${i} es ${mult*i} </p> <br>`)
+			show.innerHTML += `<p style='color:maroon'> la multiplicacion de ${mult} x ${i} es ${mult*i} </p> <br>`;
 		}
 }
-tablas();
+
+btn.addEventListener("click", tablas);
 
 
 /*ESTO ES PARA NODE JS*/
